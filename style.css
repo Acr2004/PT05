@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(240, 1%, 82%);
+}
+
+table {
+    margin: 50px 0 50px 0;
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    background-color: hsl(255, 100%, 100%);
+}
+
+table, tr, th, td {
+    border: solid 2px black;
+    text-align: center;
+}
+
+th {
+    background-color: hsl(207, 100%, 59%);
+    padding: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+img, p, a {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+}
+
+.img-link {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+td div button:hover {
+    background-color: hsl(207, 58%, 40%);
+    transition: 0.5s ease 0s all;
+}
+
+img {
+    display: inline;
+    width: 150px;
+    border: solid 4px hsl(207, 100%, 59%);
+    transition: 0.5s ease 0s all;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+img:hover {
+    border: solid 4px hsl(207, 58%, 40%);
+    transition: 0.5s ease 0s all;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 10px 10px 10px;
+}
+
+button {
+    border: none;
+    background-color: hsl(207, 100%, 59%);
+    border-radius: 15px;
+    padding: 8px 15px;
+    transition: 0.5s ease 0s all;
+    cursor: pointer;
+    color: white;
+    margin: 5px 0 5px 0;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
