@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9E9E9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0px 0 25px 0;
+    color: #2ea1ff;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+    color: #2ea1ff;
+}
+
+#passo4 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+#passo4 button {
+    width: 15vw;
+    height: 80px;
+    border: solid 4px #2ea1ff;
+    cursor: pointer;
+    background-color: #E9E9E9;
+    color: #292929;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#passo4 button:hover {
+    border: solid 4px #0e64aa;
+    background-color: #d3d3d3;
+    transition: 0.4s;
+}
+
+#passo4 a {
+    margin: 25px;
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+#tabela button {
+    width: 90vw;
+    height: 80px;
+    border: solid 4px #2ea1ff;
+    cursor: pointer;
+    background-color: #E9E9E9;
+    color: #292929;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#tabela button:hover {
+    border: solid 4px #0e64aa;
+    background-color: #d3d3d3;
+    transition: 0.4s;
+}
